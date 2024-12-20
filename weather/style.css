@@ -1,0 +1,52 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #87CEEB, #FFFFFF); /* Sky blue to white gradient */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#weatherData {
+    margin-top: 20px;
+}
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+/* Basic styling for the input group */
+.input-group {
+    display: flex;
+}
+
+.input-group input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded left corners */
+    border-right: none;
+}
+
+.input-group button {
+    padding: 8px 12px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 4px 4px 0; /* Rounded right corners */
+    cursor: pointer;
+}
+.btn-secondary{
+  border-color: gray;
+  background-color: gray;
+}
